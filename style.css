@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(90deg, rgba(179,52,178,1) 0%, rgba(182,120,49,1) 28%, rgba(106,68,159,1) 56%, rgba(23,137,190,1) 78%, rgba(0,212,255,1)100%);
+}
+.container{
+    text-align: center;
+    height: 70vh;
+    width: 30vw;
+    background: radial-gradient(at center, rgba(214, 202, 202, 0.05), rgba(224, 217, 217, 0.5) );
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #32383d,
+                inset 0 0px 3px black;
+    border-radius: 10px;
+}
+.container h1{
+    margin: 15px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background: rgba(224, 217, 217, 0.5);
+    box-shadow: 0 2px 3px #32383d,
+                inset 0 0px 3px black;
+    border-radius: 2px;
+}
+button{
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgba(224, 217, 217, 0.5);
+    border: none;
+    outline: none;
+    color: blueviolet;
+    box-shadow: 0 2px 3px #32383d,
+                inset 0 0px 3px black;
+    border-radius: 2px;
+}
+h5{
+    margin-top: 20px;
+    padding: 0 10px;
+    margin-left: 5px;
+    color: #32383d;
+    font-size: 30px;
+
+}
